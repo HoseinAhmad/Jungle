@@ -7,6 +7,7 @@ class DomesticAnimal: public Animal {
 
 public:
     DomesticAnimal();
+    virtual void fall() override final;
 
 };
 
