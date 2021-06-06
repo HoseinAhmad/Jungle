@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include "Animal.h"
 using namespace std;
 
@@ -27,6 +28,10 @@ double Animal::getX() const {
 
 double Animal::getY() const {
     return y;
+}
+
+bool Animal::isInPit(double x, double y, double r) const {
+    return sqrt(pow((this->x-x),2) + pow((this->y-y),2)) < r;
 }
 
 

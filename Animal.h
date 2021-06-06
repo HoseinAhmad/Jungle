@@ -15,6 +15,8 @@ public:
 
     double getX() const;
     double getY() const;
+
+    bool isInPit(double x, double y , double r) const;
 };
 
 
