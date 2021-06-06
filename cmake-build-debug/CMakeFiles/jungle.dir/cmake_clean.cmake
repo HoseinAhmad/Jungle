@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/jungle.dir/Animal.cpp.o"
+  "CMakeFiles/jungle.dir/WildAnimal.cpp.o"
   "CMakeFiles/jungle.dir/main.cpp.o"
   "jungle.exe"
   "jungle.pdb"
