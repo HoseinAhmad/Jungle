@@ -12,11 +12,19 @@ private:
     Animal** animals;
 
 public:
+    static const int length = 800;
+    static const int width = 700;
+    static const int xx = 100; //x of pit's center
+    static const int yy = 180; //y of pit's center
+    static const int r = 10; //radius of pit
+
     Jungle(int n);
 
     int getTotalFall() const;
     int getNum() const;
     int getIndex() const;
+
+    void AddAnimal(Animal* m);
 
 };
 

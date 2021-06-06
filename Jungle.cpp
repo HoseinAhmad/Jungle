@@ -1,3 +1,4 @@
+#include <iostream>
 #include "Jungle.h"
 
 Jungle::Jungle(int n) : totalFall(0) , index(0) {
@@ -20,6 +21,12 @@ int Jungle::getNum() const {
 
 int Jungle::getIndex() const {
     return index;
+}
+
+void Jungle::AddAnimal(Animal *m) {
+    m->setPosition(rand() % length, rand() % width);
+    animals[index]=m;
+    index++;
 }
 
 
