@@ -1,0 +1,3 @@
+/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/jungle.dir
+/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/edit_cache.dir
