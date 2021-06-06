@@ -10,6 +10,7 @@ private:
 public:
     Animal();
     virtual void fall();
+    void setPosition(double x, double y);
 
 };
 

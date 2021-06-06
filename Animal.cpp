@@ -10,3 +10,9 @@ Animal::Animal() {
 void Animal::fall() {
         cout << "The animal fell" << endl;
 }
+
+void Animal::setPosition(double x, double y) {
+    this->x=x;
+    this->y=y;
+}
+
