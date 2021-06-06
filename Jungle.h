@@ -25,6 +25,7 @@ public:
     int getIndex() const;
 
     void AddAnimal(Animal* m);
+    void movement();
 
 };
 

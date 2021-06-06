@@ -29,6 +29,21 @@ void Jungle::AddAnimal(Animal *m) {
     index++;
 }
 
+void Jungle::movement() {
+
+    for (int i = 0; i < numberOfAnimals; ++i){
+        (*(animals[i])).move(rand() % 5, rand() % 5);
+
+        if ( animals[i]->isInPit(xx, yy, r) ){
+            (*animals[i]).fall();
+            this->totalFall++;
+        }
+    }
+}
+
+
+
+
 
 
 
