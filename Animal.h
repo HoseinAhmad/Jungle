@@ -13,6 +13,8 @@ public:
     void setPosition(double x, double y);
     void move(const double& x,const double& y);
 
+    double getX() const;
+    double getY() const;
 };
 
 

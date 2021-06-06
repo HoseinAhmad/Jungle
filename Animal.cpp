@@ -21,3 +21,13 @@ void Animal::move(const double &x, const double &y) {
     this->y = this->y+y;
 }
 
+double Animal::getX() const {
+    return x;
+}
+
+double Animal::getY() const {
+    return y;
+}
+
+
+
