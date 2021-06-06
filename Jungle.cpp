@@ -10,4 +10,19 @@ Jungle::Jungle(int n) : totalFall(0) , index(0) {
     }
 }
 
+int Jungle::getTotalFall() const {
+    return totalFall;
+}
+
+int Jungle::getNum() const {
+    return numberOfAnimals;
+}
+
+int Jungle::getIndex() const {
+    return index;
+}
+
+
+
+
 

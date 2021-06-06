@@ -14,6 +14,10 @@ private:
 public:
     Jungle(int n);
 
+    int getTotalFall() const;
+    int getNum() const;
+    int getIndex() const;
+
 };
 
 
