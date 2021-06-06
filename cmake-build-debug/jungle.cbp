@@ -92,6 +92,12 @@
 		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/DomesticAnimal.h">
 			<Option target="jungle"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/Jungle.cpp">
+			<Option target="jungle"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/Jungle.h">
+			<Option target="jungle"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/mohammad/CLionProjects/jungle/WildAnimal.cpp">
 			<Option target="jungle"/>
 		</Unit>

@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/mohammad/CLionProjects/jungle/Animal.cpp" "/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/jungle.dir/Animal.cpp.o"
   "/cygdrive/c/Users/mohammad/CLionProjects/jungle/DomesticAnimal.cpp" "/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/jungle.dir/DomesticAnimal.cpp.o"
+  "/cygdrive/c/Users/mohammad/CLionProjects/jungle/Jungle.cpp" "/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/jungle.dir/Jungle.cpp.o"
   "/cygdrive/c/Users/mohammad/CLionProjects/jungle/WildAnimal.cpp" "/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/jungle.dir/WildAnimal.cpp.o"
   "/cygdrive/c/Users/mohammad/CLionProjects/jungle/main.cpp" "/cygdrive/c/Users/mohammad/CLionProjects/jungle/cmake-build-debug/CMakeFiles/jungle.dir/main.cpp.o"
   )
