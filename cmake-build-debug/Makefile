@@ -150,6 +150,33 @@ Animal.cpp.s:
 	$(MAKE) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/Animal.cpp.s
 .PHONY : Animal.cpp.s
 
+DomesticAnimal.o: DomesticAnimal.cpp.o
+
+.PHONY : DomesticAnimal.o
+
+# target to build an object file
+DomesticAnimal.cpp.o:
+	$(MAKE) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/DomesticAnimal.cpp.o
+.PHONY : DomesticAnimal.cpp.o
+
+DomesticAnimal.i: DomesticAnimal.cpp.i
+
+.PHONY : DomesticAnimal.i
+
+# target to preprocess a source file
+DomesticAnimal.cpp.i:
+	$(MAKE) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/DomesticAnimal.cpp.i
+.PHONY : DomesticAnimal.cpp.i
+
+DomesticAnimal.s: DomesticAnimal.cpp.s
+
+.PHONY : DomesticAnimal.s
+
+# target to generate assembly for a file
+DomesticAnimal.cpp.s:
+	$(MAKE) -f CMakeFiles/jungle.dir/build.make CMakeFiles/jungle.dir/DomesticAnimal.cpp.s
+.PHONY : DomesticAnimal.cpp.s
+
 WildAnimal.o: WildAnimal.cpp.o
 
 .PHONY : WildAnimal.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Animal.o"
 	@echo "... Animal.i"
 	@echo "... Animal.s"
+	@echo "... DomesticAnimal.o"
+	@echo "... DomesticAnimal.i"
+	@echo "... DomesticAnimal.s"
 	@echo "... WildAnimal.o"
 	@echo "... WildAnimal.i"
 	@echo "... WildAnimal.s"
