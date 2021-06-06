@@ -9,6 +9,7 @@ private:
 
 public:
     Animal();
+    virtual void fall();
 
 };
 
